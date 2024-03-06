@@ -28,14 +28,11 @@ dotnet test
 </details>
 
 ## Rotas
-Todos os endpoints estão configurados na rota `/customers`
+Todos os endpoints estão configurados na rota `/customers`.
 
 <details>
 <summary><strong>POST</strong></summary>
-  Para rodar os testes é necessário estar no diretório CustomerCrud.Test/ e executar:
-```
-dotnet test
-```
+  Para rodar os testes é necessário estar no diretório `CustomerCrud.Test/` e executar:
 No endpoint POST /customers o body da requisição é:
 ```
   {
