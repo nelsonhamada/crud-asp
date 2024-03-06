@@ -31,8 +31,8 @@ dotnet test
 
 <details>
 <summary><strong>POST</strong></summary>
-Para o endpoit POST `/customers` o body da requisição é:
-```json
+Para o endpoit POST `/customers` o body da requisição é:<br />
+```
 {
   "name": "Nelson",
   "cpf": "092891378"
