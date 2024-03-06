@@ -32,13 +32,12 @@ Todos os endpoints estão configurados na rota `/customers`.
 
 <details>
 <summary><strong>POST</strong></summary>
-  Para rodar os testes é necessário estar no diretório `CustomerCrud.Test/` e executar:
-No endpoint POST /customers o body da requisição é:
-```
-  {
-    "name": "Nelson",
-    "cpf": "0923890321"
-  }
+Para o endpoit POST `/customers` o body da requisição é:
+```json
+{
+  "name": "Nelson",
+  "cpf": "092891378"
+}
 ```
 </details>
 <details>
