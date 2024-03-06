@@ -28,7 +28,6 @@ dotnet test
 </details>
 
 ## Rotas
-Todos os endpoints estão configurados na rota `/customers`.
 
 <details>
 <summary><strong>POST</strong></summary>
