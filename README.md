@@ -32,6 +32,10 @@ Todos os endpoints estão configurados na rota `/customers`
 
 <details>
 <summary><strong>POST</strong></summary>
+  Para rodar os testes é necessário estar no diretório `CustomerCrud.Test/` e executar:
+```
+dotnet test
+```
 No endpoint POST /customers o body da requisição é:
 ```
   {
@@ -39,7 +43,6 @@ No endpoint POST /customers o body da requisição é:
     "cpf": "0923890321"
   }
 ```
-
 </details>
 <details>
 <summary><strong>GET /{id}, DELETE</strong></summary><br/>
