@@ -31,7 +31,7 @@ dotnet test
 Todos os endpoints estão configurados na rota `/customers`
 
 <details>
-<summary><strong>POST</strong></summary><br/>
+<summary><strong>POST</strong></summary>
 No endpoint POST /customers o body da requisição é:
 ```
   {
@@ -39,12 +39,7 @@ No endpoint POST /customers o body da requisição é:
     "cpf": "0923890321"
   }
 ```
-```json
-{
-  "name": "Nelson",
-  "cpf": "0923890321"
-}
-```
+
 </details>
 <details>
 <summary><strong>GET /{id}, DELETE</strong></summary><br/>
