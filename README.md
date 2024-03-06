@@ -33,7 +33,7 @@ Todos os endpoints estão configurados na rota `/customers`
 <details>
 <summary><strong>POST</strong></summary><br/>
 No endpoint POST /customers o body da requisição é:
-```
+```json
 {
   "name": "Nelson",
   "cpf": "0923890321"
@@ -41,7 +41,7 @@ No endpoint POST /customers o body da requisição é:
 ```
 </details>
 <details>
-<summary><strong>GET{id}, DELETE</strong></summary><br/>
+<summary><strong>GET /{id}, DELETE</strong></summary><br/>
 Nos endpoints DELETE e GET a rota é /customers/{id}
 </details>
 
