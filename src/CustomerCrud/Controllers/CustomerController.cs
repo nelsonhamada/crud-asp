@@ -46,21 +46,21 @@ public class CustomerController : ControllerBase
   }
 
   [HttpPut("{id}")]
-  public ActionResult Update(int id, CustomerRequest request)
-  {
-    var didUpdate = _repository.Update(id, new
+    public ActionResult Update(int id, CustomerRequest request)
     {
-      Name = request.Name,
-      CPF = request.CPF,
-      Transactions = request.Transactions,
-      UpdatedAt = DateTime.Now
-    });
+        var didUpdate = _repository.Update(id, new
+        {
+            Name = request.Name,
+            CPF = request.CPF,
+            Transactions = request.Transactions,
+            UpdatedAt = DateTime.Now
+        });
 
-    if(!didUpdate)
-      return NotFound("Customer not found.");
+        if (!didUpdate)
+            return NotFound("Customer not found");
 
-    return Ok($"Customer {id} updated!");
-  }
+        return Ok($"Customer {id} updated");
+    }
 
 
   [HttpDelete("{id}")]
