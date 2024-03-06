@@ -33,6 +33,12 @@ Todos os endpoints estão configurados na rota `/customers`
 <details>
 <summary><strong>POST</strong></summary><br/>
 No endpoint POST /customers o body da requisição é:
+```
+  {
+    "name": "Nelson",
+    "cpf": "0923890321"
+  }
+```
 ```json
 {
   "name": "Nelson",
