@@ -32,7 +32,7 @@ Todos os endpoints estão configurados na rota `/customers`
 
 <details>
 <summary><strong>POST</strong></summary>
-  Para rodar os testes é necessário estar no diretório `CustomerCrud.Test/` e executar:
+  Para rodar os testes é necessário estar no diretório CustomerCrud.Test/ e executar:
 ```
 dotnet test
 ```
