@@ -13,7 +13,7 @@ git clone git@github.com:nelsonhamada/crud-asp.git
 
 Entre no diretório `src/` e instale as dependências:
 ```
-cd crud-asp/src/ && dotnet restore
+cd crud-asp/src/CustomerCrud && dotnet restore
 ```
 
 Para rodar a aplicação é necessário estar no diretório `CustomerCrud/` e executar:
@@ -32,12 +32,12 @@ dotnet test
 <details>
 <summary><strong>POST</strong></summary>
 Para o endpoit POST `/customers` o body da requisição é:<br />
-```
-{
-  "name": "Nelson",
-  "cpf": "092891378"
-}
-```
+
+{<br />
+  "name": "Nelson",<br />
+  "cpf": "092891378" <br />
+}<br />
+
 </details>
 <details>
 <summary><strong>GET /{id}, DELETE</strong></summary><br/>
